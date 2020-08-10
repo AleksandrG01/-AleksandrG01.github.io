@@ -1,0 +1,99 @@
+.section_5 {
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 6px;
+		top: -6px;
+		background-image: url(../img/bah_3.png);
+		z-index: 10;
+		width: 100%;
+		 left: 0;
+	}
+}
+
+.container.contakti {
+    margin: 50px auto;
+}
+.map {
+	padding: 9px;
+  border: 8px #F6C531 solid;
+  iframe {
+    width: 100%;
+	}
+}
+.our_contakts {
+	text-align: center;
+}
+.contakts2 {
+	display: inline-block;
+	margin: 20px 0px;
+	width: 100%;
+	.loso_adres {
+		width: 70px;
+		height: 70px;
+		display: inline-block;
+		background-color:#FFCC33;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+		 -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+		  23px 0 20px -23px rgba(0, 0, 0, 0.8),
+		   0 0 40px rgba(0, 0, 0, 0.1) inset;
+		.fa-map-marker {
+			padding-left: 20px;
+		}
+		.fa-phone {
+			padding-left: 17px;
+		}
+		.fa-envelope {
+			padding-left: 11px;
+		}
+		i {
+			font-size: 50px;
+			display: block;
+			padding: 11px 13px;
+		}
+	}
+	.spis_adres {
+		display: inline-block;
+		margin-left: 15px;
+		span {
+			font-size: 19px;
+			font-family: "PFCentroSlabProMedium", helvetica, Arial;
+		}
+	}
+}
+.bottom_mnu {
+	.active a {
+    color:#111;
+	}
+	ul {
+		margin-top: 19px;
+		font-size: 16px;
+		li {
+			a {
+				color: #111;
+				&:hover {
+					color: #111;
+				}
+			}
+		}
+	}
+}
+.sect5 {
+	.logo_sektbottom {
+		h1 {
+			font-size: 31px;
+		}
+	}
+}
+.footer {
+	background-color: #333333;
+	text-align: center;
+	color: #fff;
+	p {
+		
+	}
+}
+.footer_logo {
+	color: #fff;
+}

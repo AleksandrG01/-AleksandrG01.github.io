@@ -1,0 +1,156 @@
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.top_mnu {
+		display: none;
+		margin-top: -10px;
+		float:right;
+		text-align:right;
+		ul li {
+			display: block;
+			width: 298px;
+			padding: 0px;
+			background-color: #052441;
+		}
+		a {
+				display: block;
+				padding: 13px;
+			}	
+		a:hover {
+				background-color: #1A3F5A;
+				-webkit-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;
+			}	
+		}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	.row.info_t {
+  	bottom: 40px;
+  	position: relative;
+	}
+	.info_item2 {
+		width: 100%;
+	}
+   .logo_2 {
+    margin: 84px 0px 35px;
+	}
+	.section_content {
+    min-height: 560px;
+	}
+
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.row.info_t {
+  	bottom: 40px;
+  	position: relative;
+	}
+	.info_item2 {
+		width: 100%;
+	}
+	.logo span {
+    margin-left: 0px;
+    font-size: 12px;
+	}
+	.amenit_img img {
+    display: none;
+   }
+  .contakts2 .spis_adres span {
+    font-size: 13px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	.logo img {
+    width: 100px;
+    margin-top: 4px;
+	}
+	.phone {
+		font-size: 15px;
+	}
+	.header_wrap {
+		h1 {
+			margin-top: 2px;
+    	font-size: 33px;
+		}
+		p {
+			font-size: 20px;
+		}
+   }
+	.s2_item_wrap {
+    width: 140px;
+    padding: 0 10px;
+	}
+	.top_line .contakts {
+    display: none;
+	}
+	.amenit_img img {
+    display: none;
+   }
+   .logo_2 {
+    margin: 35px 0px 35px;
+	}
+	.circle {
+    margin: 7px auto 39px;
+  }
+  .top_mnu.bottom_mnu {
+    display: none;
+	}
+  
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	.info_item2 {
+		p {
+			border-bottom:none ;
+		}
+	}
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	.top_mnu {
+		display: block !important;
+	}
+}
+

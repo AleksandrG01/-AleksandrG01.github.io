@@ -1,0 +1,42 @@
+.darcsecct {
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 6px;
+		top: -6px;
+		background-image: url(../img/bah_2.png);
+		z-index: 10;
+		width: 100%;
+		 left: 0;
+	}
+}	
+
+.section_3 {
+	background-color: #2C3949;
+	color: #FFFFFF;
+	text-align: center;
+}
+.section_head2 {
+	h2{
+		color: #fff;
+	}
+	p{
+		color: #E5E5E5;
+	}
+}
+
+.price {
+    margin: 38px 0px 38px;
+    p {
+    	margin-top: 15px;
+    	color:#fff;
+    	font-family: "PFCentroSlabProMedium", helvetica, Arial, sans-serif;
+    }
+    span {
+    	color: #FFCC33;
+    }
+}
+
+
+

@@ -1,0 +1,72 @@
+@import "normalize";
+@import "bourbon";
+@import "_mixins";
+@import "_fonts";
+@import "_vars";
+@import "_header";
+@import "_ocenka";
+@import "_section2";
+@import "_section3";
+@import "_section4";
+@import "_section5";
+
+
+
+
+*::-webkit-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+	
+
+*:-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+	
+
+*::-moz-placeholder{
+	color: #666;
+	opacity: 1;
+}
+	
+
+*:-ms-input-placeholder{
+	color: #666;
+	opacity: 1;
+}
+	
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+	color: #fff;
+}
+body input:required:valid,
+body textarea:required:valid{
+	color: #fff;
+}
+
+html, body{
+	height: 100%;
+}
+
+body {
+	font-family: "RobotoLight", Arial, sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.15;
+	overflow-x: hidden;
+	opacity: 1;
+	background-color: #fff;
+	color: #111;
+}
+
+
+
+
+	
+
+
+
+@import "media";

@@ -1,0 +1,67 @@
+.section_2::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    top: -6px;
+    background-image: url(../img/bah_3.png);
+    z-index: 10;
+    width: 100%;
+}
+.section_2 {
+	.amenities {
+	width:100%;	
+	ul {
+		font-size: 25px;
+		color: #dedc15;
+		li {
+			&:hover {
+				background-color:#FFCC33;
+				-webkit-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;
+			}
+			p {
+				margin-top: 10px;
+				margin-bottom: 0px;
+				font-size: 15px;
+				color: #0b0808;
+				border-left: 1px solid #141414;
+				text-align: left;
+				padding-left: 12px;
+				}			
+			}
+		}
+	}
+}
+
+.amenit_img {
+	img {
+		width: 100%;
+		display: block;
+		margin-top: 45px;
+	}
+}
+.seck2 {
+	p {
+		margin: 29px;
+		font-family: "PFCentroSlabProBold", helvetica, Arial, sans-serif;
+		font-size: 20px;
+	}
+	.logo_2sect {
+		margin: 0px;
+		h1 {
+			font-family: "PFCentroSlabProMedium", helvetica, Arial, sans-serif;
+			font-size: 52px;
+			color:#111;
+			text-decoration: underline;
+			margin: 0px;
+			text-align: center;
+		}
+		span {
+			color:#111;
+			text-decoration:none;
+			display: block;
+			text-align: center;
+		}
+	}
+}

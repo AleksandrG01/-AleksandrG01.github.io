@@ -1,0 +1,81 @@
+.section_4 {
+	position: relative;
+	background-color: #333333;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 6px;
+		top: -6px;
+		background-image: url(../img/bah_2.png);
+		z-index: 10;
+		width: 100%;
+		 left: 0;
+	}
+	h2 {
+		color:#fff;
+	}
+}
+
+
+
+.conditions {
+	min-height: 449px;
+	text-align: center;
+	margin-top: 50px;
+	.conditions_content {
+		min-height: 362px;
+		padding: 25px 30px;
+		display: block;
+		background-color: #2C3949;
+		border-bottom:4px #171814 solid;
+		&:hover {
+			-webkit-transition: all 0.8s;
+			-o-transition: all 0.8s;
+			transition: all 0.8s;
+			border-bottom:4px #FFCC33 solid;
+			.sondit_img {
+				transform: scale(1.1);
+				-webkit-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;
+			}
+		}
+		p {
+			color: #97A4B2;
+			margin-bottom: -7px;
+			margin-top: 11px;
+			font-size: 18px;
+			strong {
+				color:#F39F18;
+			}
+		}
+		.sondit_img1 {
+			img {
+				margin-top: 45px;
+			}
+		}
+		.sondit_img {
+			height: 135px;
+			width: 135px;
+			background-color:#FFCC33;
+			border-radius:50em ;
+			display: block;
+			margin: 25px auto;
+			img {
+				width: 100px;
+				height: auto;
+				    margin-top: 15px;
+				
+			}
+		}
+	}
+}
+.span_text {
+    font-size: 29px;
+    color: white;
+    font-family: "PFCentroSlabProMedium", helvetica, Arial, sans-serif;
+}
+.conditions_content1 {
+    margin-bottom: 15px;
+}
+
